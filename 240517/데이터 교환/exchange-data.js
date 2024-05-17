@@ -1,7 +1,9 @@
 let [a, b, c] = [5, 6, 7];
 
-
-[a, b, c] = [c, a, b]
+let temp = b;
+b = a;
+a = c;
+c = temp;
 
 console.log(a);
 console.log(b);
