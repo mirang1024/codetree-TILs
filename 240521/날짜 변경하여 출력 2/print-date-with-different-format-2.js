@@ -1,8 +1,8 @@
 const fs = require("fs");
-let date = fs.readFileSync(0).toString().trim().split("-");
+let date = fs.readFileSync(0).toString().split("-");
 
-let yyyy = date[0];
+let yyyy = date[2];
 let mm = date[1];
-let dd = date[2];
+let dd = date[0];
 
-console.log(yyyy.mm.dd);
+console.log(`${yyyy}.${mm}.${dd}`);
