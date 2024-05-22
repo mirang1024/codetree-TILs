@@ -5,6 +5,6 @@ let a = Number(input[0]);
 let b = Number(input[1]);
 
 a += b
-let result = a + b;
+b += a
 
-console.log(a, result);
+console.log(a, b);
