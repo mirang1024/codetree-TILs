@@ -6,7 +6,7 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 
 let sum = a + b + c;
-let avr = (sum / input.length ).toFixed(0);
+let avr = Math.floor(sum / input.length);
 
 console.log(sum);
 console.log(avr);
