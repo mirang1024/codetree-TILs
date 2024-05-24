@@ -1,8 +1,12 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().split(" ").trim();
+let input = fs.readFileSync(0).toString().split(" ");
 
 let a = Number(input[0]);
-let b = Number(input[1]);
+if (b === null) {
+    let b = 0
+} else {
+    let b = Number(input[1]);
+}
 
 
 if (a > b) {
