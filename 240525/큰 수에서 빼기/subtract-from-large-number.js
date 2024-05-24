@@ -6,6 +6,6 @@ let b = Number(input[1]);
 
 if (a >= b) {
     console.log(a - b);
-} else if (b >= a) {
+} else if (b > a) {
     console.log(b - a);
 }
