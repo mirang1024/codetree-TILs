@@ -7,6 +7,7 @@ if (n >= 100) {
 
 if (n < 0) {
     console.log("ice")
-} else if (n < 100) {
+}
+else {
     console.log("water");
 }
