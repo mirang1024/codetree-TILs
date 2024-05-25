@@ -4,10 +4,9 @@ let a = Number(fs.readFileSync(0).toString().trim());
 if (a < 0.5) {
     console.log("Low");
 }
-
-if (a >= 1.0) {
+else if (a >= 1.0) {
     console.log("High");
 }
-else if (a >= 0.5) {
+else {
     console.log("Middle");
 }
