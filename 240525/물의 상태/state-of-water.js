@@ -4,10 +4,9 @@ let n = Number(fs.readFileSync(0).toString().trim());
 if (n >= 100) {
     console.log("vapor");
 }
-
-if (n < 0) {
-    console.log("ice")
+else if (n >= 0) {
+    console.log("water");
 }
 else {
-    console.log("water");
+    console.log("ice")
 }
