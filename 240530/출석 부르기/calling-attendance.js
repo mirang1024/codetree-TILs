@@ -10,3 +10,6 @@ else if (input === 2) {
 else if (input === 3) {
     console.log("Paul");
 }
+else {
+    console.log("Vacancy")
+}
