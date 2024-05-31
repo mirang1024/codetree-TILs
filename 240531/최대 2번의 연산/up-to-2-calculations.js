@@ -5,6 +5,7 @@ if (a % 2 === 0) {
     a /= 2;
 }
 if (a % 2 === 1) {
-    let result = (a + 1) / 2;
-    console.log(result)
+    a += 1;
+    a /= 2;
 }
+console.log(a)
