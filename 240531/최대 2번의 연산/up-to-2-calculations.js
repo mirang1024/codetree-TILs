@@ -6,5 +6,8 @@ if (a % 2 === 0) {
     if (result % 2 === 1) {
         let final = (result + 1) / 2;
         console.log(final);
-    } 
+    }
+    else {
+        console.log(a);
+    }
 }
