@@ -1,13 +1,23 @@
-let fs = require("fs");
-let input = fs.readFileSync(0).toString().split(" ");
+const fs = require("fs");
+const input = fs.readFileSync(0).toString().split(" ");
 
-let a= Number(input[0]);
-let b= Number(input[1]);
+const a= Number(input[0]);
+const b= Number(input[1]);
 
+let result1;
+let result2;
 
 if (a < b) {
-    console.log(1, 0);
+    result1 = 1;
 }
-else if (a === b) {
-    console.log(0, 1);
+else {
+    result1 = 0;
 }
+
+if (a === b) {
+    result2 = 1;
+}
+else {
+    result2 = 0;
+}
+console.log(result1 + " " + result2);
