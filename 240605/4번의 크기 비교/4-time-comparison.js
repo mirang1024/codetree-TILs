@@ -2,7 +2,9 @@ const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split("\n");
 
 const a = Number(input[0]);
+
 const input2 = input[1].split(" ");
+
 const b = Number(input2[0]);
 const c = Number(input2[1]);
 const d = Number(input2[2]);
@@ -20,13 +22,13 @@ if (a > c) {
     console.log(0);
 }
 
-if (b > d) {
+if (a > d) {
     console.log(1);
 } else {
     console.log(0);
 }
 
-if (b > e) {
+if (a > e) {
     console.log(1);
 } else {
     console.log(0);
