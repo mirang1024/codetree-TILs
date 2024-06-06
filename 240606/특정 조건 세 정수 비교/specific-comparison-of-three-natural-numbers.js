@@ -5,14 +5,18 @@ const a= Number(input[0]);
 const b= Number(input[1]);
 const c= Number(input[2]);
 
+let result1, result2;
+
 if (a < b && a < c) {
-    console.log(1);
+    result1 = 1;
 } else {
-    console.log(0);
+    result1 = 0;
 }
 
 if (a === b && b === C) {
-    console.log(1);
+    result2 = 1;
 } else {
-    console.log(0);
+    result2 = 0;
 }
+
+console.log(result1, result2)
