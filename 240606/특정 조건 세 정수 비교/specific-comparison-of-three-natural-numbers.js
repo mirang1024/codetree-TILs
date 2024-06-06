@@ -6,7 +6,7 @@ const b= Number(input[1]);
 const c= Number(input[2]);
 
 let result1, result2;
-let min = Number(input[0]);
+let min = a;
 
 for (let i = 0; i < input.length; i++) {
     if (Number(input[i]) <= min) {
@@ -14,7 +14,7 @@ for (let i = 0; i < input.length; i++) {
     }
 }
 
-if (Number(input[0]) === min) {
+if (a === min) {
     result1 = 1;
 } else {
     result1 = 0;
