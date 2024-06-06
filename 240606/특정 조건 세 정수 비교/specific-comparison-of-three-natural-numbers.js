@@ -6,15 +6,9 @@ const b= Number(input[1]);
 const c= Number(input[2]);
 
 let result1, result2;
-let min = a;
 
-for (let i = 0; i < input.length; i++) {
-    if (Number(input[i]) <= min) {
-        min = Number(input[i]);
-    }
-}
 
-if (a === min) {
+if (a <= b && a <= c) {
     result1 = 1;
 } else {
     result1 = 0;
